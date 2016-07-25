@@ -1,10 +1,10 @@
 .bg-header {
-    background: url("../img/magi.jpg");
-    padding: 13%;
+    background: url("../img/magi2.jpg");
+    padding: 20%;
     background-size: cover;
 }
 .white {
-    color: #C2542F;
+    color: white;
     text-align: center;
     font-size: 60px;
     font-family: 'Open Sans', sans-serif;
@@ -14,7 +14,7 @@
     margin-bottom: 5%;
 }
 section p {
-    color: #C2542F;
+    color: black;
     text-align: center;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
@@ -38,7 +38,6 @@ section p {
     transition: 0.5s;
 }
 .mp {
-    background: url(../img/jap.jpg);
     border-radius: 2%;
     background-size: cover;
     border-radius: 30%;
