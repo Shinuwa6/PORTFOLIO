@@ -1,0 +1,58 @@
+main {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    outline: 1px solid;
+    outline-offset: -6px;
+    color: white;
+    text-align: center;
+}
+main p {
+    color: white;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding-top: 44vh;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5vw;
+    padding-left: 3vw;
+}
+main a {
+    width: 12vw;
+    text-decoration: none;
+    color: white;
+}
+#decouvrir {
+    position: relative;
+    display: inline;
+    padding-left: 7px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    top: 10vh;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+    border: 2px solid;
+}
+#logos {
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+.twt:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.gth:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.fcb:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
