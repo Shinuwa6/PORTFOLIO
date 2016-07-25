@@ -24,7 +24,6 @@ section p {
     margin-bottom: 5%;
     margin-top: 6%;
 }
-
 .bck {
     background: url(../img/eas.jpg);
     margin-bottom: 5%;
@@ -32,16 +31,15 @@ section p {
     background-size: auto;
 }
 .hov {
-    opacity: 0.4;
+    opacity: 0.7;
 }
 .hov:hover {
     opacity: 1;
     transition: 0.5s;
 }
-
 .mp {
-  background: url(../img/jap.jpg);
-  border-radius: 2%;
-  background-size: cover;
-  border-radius: 30%;
+    background: url(../img/jap.jpg);
+    border-radius: 2%;
+    background-size: cover;
+    border-radius: 30%;
 }
