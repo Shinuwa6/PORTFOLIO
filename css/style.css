@@ -1,3 +1,5 @@
+/* #############################ARRIERE PLAN######################################## */
+
 main {
     background-image: url(../img/bg.jpg);
     background-size: cover;
@@ -7,6 +9,9 @@ main {
     color: white;
     text-align: center;
 }
+
+/* ##############################NICOLAS EN LETTRE COOL####################################### */
+
 main p {
     color: white;
     margin: 0;
@@ -16,27 +21,37 @@ main p {
     padding-top: 44vh;
     font-size: 3em;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 5vw;
-    padding-left: 3vw;
+    letter-spacing: 3vw;
+    padding-left: 3%;
 }
-main a {
-    width: 12vw;
-    text-decoration: none;
-    color: white;
+
+
+#decouvrir:hover {
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  transition: 0.5s;
+
 }
+
+/* ###############################BOUTON CLIQUER ICI###################################### */
+
 #decouvrir {
     position: relative;
     display: inline;
     padding-left: 7px;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    top: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 70px;
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1vw;
+    letter-spacing: 10px;
     text-transform: uppercase;
-    border: 2px solid;
+    border: 1px solid;
 }
+
+/* ############################LOGO FCB TWT GIT######################################### */
+
 #logos {
     position: absolute;
     text-align: center;

@@ -42,11 +42,9 @@ section p {
     background-size: cover;
     border-radius: 30%;
 }
-@media screen and (max-width: 1030px) {
-    .white {
-        font-size: 40px;
-    }
-}
+
+/* ############################PREMIER PAS DANS LE RESPONSIVE !######################################### */
+/* ##################################################################### */
 
 /* ##################################################################### */
 
@@ -59,19 +57,26 @@ section p {
 
 /* Extra small devices (phones, less than 768px) */
 
-@media screen and (max-width: 480px) {
-    .white {
-        font-size: 5px;
-    }
+
+@media screen and (max-width: 380px) {
+
+  .white {
+      font-size: 25px;
 }
-@media screen and (max-width: 370px) {
   section p {
 
     font-size: 15px;
   }
-  .white {
-      font-size: 3px;
-  }
+
+
+}
+
+@media screen and (min-width: 380px)
+{
+.white {
+  font-size: 40px;
+
+}
 
 }
 /* ##################################################################### */
@@ -145,8 +150,7 @@ section p {
     }
 }
 @media screen and (max-width: 1030px) {
-    .white {
-        font-size: 40px;
+
         /* ##################################################################### */
         /* ########################   LARGE DESKTOPS   ######################### */
         /* ##################################################################### */
