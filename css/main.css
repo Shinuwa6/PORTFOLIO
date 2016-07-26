@@ -42,12 +42,113 @@ section p {
     background-size: cover;
     border-radius: 30%;
 }
-
-
 @media screen and (max-width: 1030px) {
-
-  .white {
-    font-size: 30px;
-
-  }
+    .white {
+        font-size: 40px;
+    }
 }
+
+/* ##################################################################### */
+
+
+/* ##########################   SMARTPHONE   ########################### */
+
+
+/* ##################################################################### */
+
+
+/* Extra small devices (phones, less than 768px) */
+
+@media screen and (max-width: 480px) {
+    .white {
+        font-size: 5px;
+    }
+}
+@media screen and (max-width: 370px) {
+  section p {
+
+    font-size: 15px;
+  }
+  .white {
+      font-size: 3px;
+  }
+
+}
+/* ##################################################################### */
+
+
+/* ############################   TABLETS   ############################ */
+
+
+/* ##################################################################### */
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* ##################################################################### */
+
+
+/* ############################   DESKTOPS   ########################### */
+
+
+/* ##################################################################### */
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .bg-header {
+        background: url("../img/magi2.jpg");
+        padding: 20%;
+        background-size: cover;
+    }
+    .white {
+        color: white;
+        text-align: center;
+        font-size: 10em;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 10px;
+        padding-left: 1%;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    section p {
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 10px;
+        padding-left: 1vw;
+        font-weight: bold;
+        margin-bottom: 5%;
+        margin-top: 6%;
+    }
+    .bck {
+        background: url(../img/eas.jpg);
+        margin-bottom: 5%;
+        border-radius: 2%;
+        background-size: auto;
+    }
+    .hov {
+        opacity: 0.7;
+    }
+    .hov:hover {
+        opacity: 1;
+        transition: 0.5s;
+    }
+    .mp {
+        border-radius: 2%;
+        background-size: cover;
+        border-radius: 30%;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .white {
+        font-size: 40px;
+        /* ##################################################################### */
+        /* ########################   LARGE DESKTOPS   ######################### */
+        /* ##################################################################### */
+        /* Large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {}
