@@ -6,10 +6,10 @@
 .white {
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 10em;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 50px;
-    padding-left: 1vw;
+    letter-spacing: 10px;
+    padding-left: 1%;
     font-weight: bold;
     margin-bottom: 5%;
 }
@@ -41,4 +41,13 @@ section p {
     border-radius: 2%;
     background-size: cover;
     border-radius: 30%;
+}
+
+
+@media screen and (max-width: 1030px) {
+
+  .white {
+    font-size: 30px;
+
+  }
 }
